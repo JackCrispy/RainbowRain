@@ -19,13 +19,13 @@ async def on_message(message):
         global dothething
         if message.author == client.user:
                 return
-        if message.content.startswith("+stop"):
+        if message.content.startswith("!stop"):
                 await client.send_message(message.channel,"stopped")
                 try:
                         dothething[str(message.server.id)]=0
                 except:
                         print("err")
-        if message.content.startswith("+start"):
+        if message.content.startswith("!start"):
                 await client.send_message(message.channel, "started")
                 hue=0
                 if message.content.strip().startswith("+start "):
