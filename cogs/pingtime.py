@@ -11,7 +11,7 @@ class pingtime:
 
     @commands.command(pass_context=True)
     async def ping(self, ctx):
-        """Pong."""
+        """Pong :ping_pong:"""
         t1 = time.perf_counter()
         await self.bot.send_typing(ctx.message.channel)
         t2 = time.perf_counter()
