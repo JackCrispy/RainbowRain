@@ -1,5 +1,5 @@
 ##REPLACE THESE VALUES
-bot_key="PlAcEhOlDeR"
+bot_key="NDc0ODQ4MzQyMzgwMjQ5MDg4.DkWc5A.ydU8XvujVssAwsEEGF6oaYw0zVE"
 default_role="RAINBOW"
 ##--------------------
 import discord
