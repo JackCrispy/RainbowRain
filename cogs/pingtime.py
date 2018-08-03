@@ -15,7 +15,7 @@ class pingtime:
         t1 = time.perf_counter()
         await self.bot.send_typing(ctx.message.channel)
         t2 = time.perf_counter()
-        thedata = ("**Pong** :ping_pong:\nTime: " + str(round((t2-t1)*1000)) + "ms" "\n\n:exclamation: Ping is high :exclamation: ")
+        thedata = ("**Pong** :ping_pong:\nTime: " + str(round((t2-t1)*1000)) + "ms" "\n\n:white_check_mark:  Ping is `Normal` ")
         color = ''.join([choice('0123456789ABCDEF') for x in range(6)])
         color = int(color, 16)
         data = discord.Embed(description=thedata, colour=discord.Colour(value=color))
